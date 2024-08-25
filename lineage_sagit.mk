@@ -24,6 +24,16 @@ $(call inherit-product, device/xiaomi/sagit/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
+# Lineage
+TARGET_FACE_UNLOCK_SUPPORTED := true
+WITH_GAPPS := true
+-include vendor/lineage-priv/keys/keys.mk
+
 PRODUCT_NAME := lineage_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
@@ -36,6 +46,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="sagit-user 9 PKQ1.190118.001 V11.0.5.0.PCACNXM release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/sagit/sagit:9/PKQ1.190118.001/V11.0.5.0.PCACNXM:user/release-keys
-
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.build.fingerprint=$(BUILD_FINGERPRINT)
