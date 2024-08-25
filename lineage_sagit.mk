@@ -32,7 +32,6 @@ TARGET_SCREEN_WIDTH := 1080
 # Lineage
 TARGET_FACE_UNLOCK_SUPPORTED := true
 WITH_GAPPS := true
--include vendor/lineage-priv/keys/keys.mk
 
 PRODUCT_NAME := lineage_sagit
 PRODUCT_DEVICE := sagit
