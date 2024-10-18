@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/pixelage_sagit.mk
+
+COMMON_LUNCH_CHOICES := \
+    pixelage_sagit-user \
+    pixelage_sagit-userdebug \
+    pixelage_sagit-eng
