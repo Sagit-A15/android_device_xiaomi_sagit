@@ -38,9 +38,8 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc=$(call normalize-path-list, "sagit-user 9 PKQ1.190118.001 V11.0.5.0.PCACNXM release-keys")
-
-BUILD_FINGERPRINT := Xiaomi/sagit/sagit:9/PKQ1.190118.001/V11.0.5.0.PCACNXM:user/release-keys
+    BuildDesc="sagit-user 9 PKQ1.190118.001 V11.0.5.0.PCACNXM release-keys" \
+    BuildFingerprint=Xiaomi/sagit/sagit:9/PKQ1.190118.001/V11.0.5.0.PCACNXM:user/release-keys
 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
