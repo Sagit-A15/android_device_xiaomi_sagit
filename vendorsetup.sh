@@ -3,3 +3,5 @@ git clone --recurse-submodules -b lineage-22.0-su https://github.com/Sagit-A15/a
 rm -rf system/extras/su
 rm -rf vendor/pixelage
 git clone -b 15 https://github.com/Sagit-A15/android_vendor_pixelage.git vendor/pixelage
+rm -rf hardware/lineage/interfaces
+git clone -b 15 https://github.com/Sagit-A15/android_hardware_lineage_interfaces.git hardware/lineage/interfaces
