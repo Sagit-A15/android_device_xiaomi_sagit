@@ -38,8 +38,8 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="sagit-user 8.0.0 OPR1.170623.027 V9.2.3.0.OCAMIEK release-keys" \
-    BuildFingerprint=Xiaomi/sagit/sagit:8.0.0/OPR1.170623.027/V9.2.3.0.OCAMIEK:user/release-keys \
+    BuildDesc="sagit-user 9 PKQ1.190118.001 V11.0.5.0.PCACNXM release-keys" \
+    BuildFingerprint=Xiaomi/sagit/sagit:9/PKQ1.190118.001/V11.0.5.0.PCACNXM:user/release-keys \
     DeviceName=sagit \
     DeviceProduct=sagit \
     SystemName=sagit
