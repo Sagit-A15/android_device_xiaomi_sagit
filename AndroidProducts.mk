@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixelage_sagit.mk
+    $(LOCAL_DIR)/halcyon_sagit.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixelage_sagit-user \
-    pixelage_sagit-userdebug \
-    pixelage_sagit-eng
+    halcyon_sagit-user \
+    halcyon_sagit-userdebug \
+    halcyon_sagit-eng
