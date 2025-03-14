@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixelage_sagit.mk
+    $(LOCAL_DIR)/komodo_sagit.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixelage_sagit-user \
-    pixelage_sagit-userdebug \
-    pixelage_sagit-eng
+    komodo_sagit-user \
+    komodo_sagit-userdebug \
+    komodo_sagit-eng
