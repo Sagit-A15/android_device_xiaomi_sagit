@@ -1,0 +1,2 @@
+# enable on-screen navbar
+qemu.hw.mainkeys=0
